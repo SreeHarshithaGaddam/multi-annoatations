@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "API_testing"
+  description: "api for testing"
+  annotations:
+    random/Targetusers: {Value1},{Value2},{Value3}
+spec:
+  type: openapi
+  owner: user:SreeHarshithaGaddam
+  lifecycle: experimental
+  definition: "sample definition"
