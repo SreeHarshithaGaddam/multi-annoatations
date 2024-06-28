@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "stringcon_withbraces"
+  description: "api for testing"
+  annotations:
+    random/Targetusers: [Internal1,Internal2]
+spec:
+  type: openapi
+  owner: user:SreeHarshithaGaddam
+  lifecycle: experimental
+  definition: "sample definition"
