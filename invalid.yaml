@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "Invaliddomain2"
+  description: "api for testing"
+  annotations:
+    random@w!/Targetusers: Internal
+spec:
+  type: openapi
+  owner: user:SreeHarshithaGaddam
+  lifecycle: experimental
+  definition: "sample definition"
