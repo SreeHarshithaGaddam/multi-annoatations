@@ -4,7 +4,7 @@ metadata:
   name: "API_testing"
   description: "api for testing"
   annotations:
-    random/Targetusers: {Value1},{Value2},{Value3}
+    random/Targetusers: Internal
 spec:
   type: openapi
   owner: user:SreeHarshithaGaddam
